@@ -1,0 +1,33 @@
+.project {
+	box-shadow: 0 0 5px 0 var(--black);
+	border-radius: 8px;
+
+	padding: 1em;
+}
+
+.project > *:first-child {
+	margin-top: 0;
+}
+
+.project > *:last-child {
+	margin-bottom: 0;
+}
+
+.project .codename {
+	font-style: normal;
+	font-family: monospace;
+	padding: 0.0em 0.2em;
+	background-color: var(--grey);
+	border-radius: 0.2em;
+}
+
+.project .download {
+	text-align: right;
+}
+
+.project .download a,
+.project .download a:visited {
+	color: var(--primary-dark);
+	font-weight: bold;
+	font-size: 1.1em;
+}

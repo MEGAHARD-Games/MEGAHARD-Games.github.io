@@ -35,9 +35,11 @@ Head generateHead({
       ),
     ],
     styles: [
-      Style(css: File("ssg/styles/autolink.css").readAsStringSync()),
-      Style(css: File("ssg/styles/main-layout.css").readAsStringSync()),
-      Style(css: File("ssg/styles/main-styling.css").readAsStringSync()),
+      Style(css: File("styles/colours.css").readAsStringSync()),
+      Style(css: File("styles/autolink.css").readAsStringSync()),
+      Style(css: File("styles/main-layout.css").readAsStringSync()),
+      Style(css: File("styles/main-styling.css").readAsStringSync()),
+      Style(css: File("styles/projects.css").readAsStringSync()),
     ],
   );
 }

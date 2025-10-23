@@ -1,0 +1,57 @@
+/* Page background */
+html {
+	background: var(--primary-dark);
+	background: url(/assets/noise.svg),
+	radial-gradient(
+			circle at bottom,
+			var(--gradient-5) 0%,
+			var(--gradient-4) 42%,
+			var(--gradient-3) 60%,
+			var(--gradient-2) 75%,
+			var(--gradient-1) 100%
+	) no-repeat fixed;
+
+	font-family: "Times New Roman", serif;
+	color: var(--primary-dark);
+}
+
+/* Stupid CSS hack to make SVGs #322630 https://angel-rs.github.io/css-color-filter-generator/ */
+img[src$=".svg"] {
+	filter: brightness(0) saturate(100%) invert(14%) sepia(22%) saturate(468%) hue-rotate(259deg) brightness(99%) contrast(95%);
+}
+
+/* Header */
+header nav ul li {
+	padding: 0.5em 1em;
+	background-color: var(--yellow);
+	z-index: 1;
+}
+
+header nav ul li a,
+header nav ul li a:visited {
+	color: var(--primary-dark);
+	text-decoration: none;
+}
+
+/* Main */
+main {
+	box-shadow: 0 0 20px 0 #000;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	scroll-margin-top: 1em;
+}
+
+/* Title */
+h1 > img {
+	width: 100%;
+}
+
+/* Footer */
+footer {
+	font-style: italic;
+}

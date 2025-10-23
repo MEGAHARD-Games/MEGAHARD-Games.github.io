@@ -1,0 +1,11 @@
+:root {
+	--black: #000;
+	--grey: #888;
+	--yellow: #FFFF00;
+	--primary-dark: #322630;
+	--gradient-1: var(--primary-dark);
+	--gradient-2: #50428F;
+	--gradient-3: #737CB3;
+	--gradient-4: #ABB5BE;
+	--gradient-5: #DBD18B;
+}

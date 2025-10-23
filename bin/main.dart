@@ -7,7 +7,7 @@ Future<void> main(List<String> arguments) async {
   log.info("Starting generation...");
 
   copy("images", "images");
-  copy("ssg/copy", "");
+  copy("copy", "");
 
   createHomePage();
 

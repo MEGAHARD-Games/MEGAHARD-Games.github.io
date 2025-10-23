@@ -33,11 +33,11 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Download SSG dependencies
-        run: cd ssg && dart pub get
-
       - name: Setup Dart SDK
         uses: dart-lang/setup-dart@v1
+
+      - name: Download SSG dependencies
+        run: cd ssg && dart pub get
 
       - name: Build the Website
         run: dart run ssg/bin/main.dart

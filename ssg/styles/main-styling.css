@@ -1,7 +1,8 @@
 /* Page background */
 html {
 	background: #DBD1B8;
-	background: radial-gradient(
+	background: url(/assets/noise.svg),
+	radial-gradient(
 			circle,
 			rgba(219, 209, 184, 1) 0%,
 			rgba(171, 181, 190, 1) 42%,

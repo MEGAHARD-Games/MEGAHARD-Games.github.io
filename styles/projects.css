@@ -3,6 +3,7 @@
 	border-radius: 8px;
 
 	padding: 1em;
+	margin: 1em 0;
 }
 
 .project > *:first-child {
@@ -21,12 +22,12 @@
 	border-radius: 0.2em;
 }
 
-.project .download {
+.project .link {
 	text-align: right;
 }
 
-.project .download a,
-.project .download a:visited {
+.project .link a,
+.project .link a:visited {
 	color: var(--primary-dark);
 	font-weight: bold;
 	font-size: 1.1em;

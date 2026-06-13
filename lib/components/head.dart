@@ -14,13 +14,13 @@ Head generateHead({
   return Head(
     title: fullTitle,
     metas: [
-      Meta.name(name: "viewport", content: "width=device-width, initial-scale=1"),
-      Meta.name(name: "og:title", content: fullTitle),
-      Meta.name(name: "description", content: description),
-      Meta.name(name: "og:description", content: description),
-      Meta.name(name: "theme-color", content: "#50428F"),
-      Meta.name(name: "og:image", content: "https://MEGAHARD-Games.github.io/images/iconv1.png"),
-      Meta.httpEquiv(httpEquiv: "X-Clacks-Overhead", content: "GNU Terry Pratchett"),
+      Meta.name("viewport", content: "width=device-width, initial-scale=1"),
+      Meta.name("og:title", content: fullTitle),
+      Meta.name("description", content: description),
+      Meta.name("og:description", content: description),
+      Meta.name("theme-color", content: "#50428F"),
+      Meta.name("og:image", content: "https://MEGAHARD-Games.github.io/images/iconv1.png"),
+      Meta.httpEquiv("X-Clacks-Overhead", content: "GNU Terry Pratchett"),
     ],
     links: [
       Link.icon(

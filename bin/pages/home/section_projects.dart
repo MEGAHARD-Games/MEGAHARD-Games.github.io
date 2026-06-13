@@ -14,11 +14,24 @@ List<Element> generateProjectsSection() {
   ];
 }
 
+enum LinkType {
+  download,
+  social,
+  ;
+
+  @override
+  String toString() => switch (this) {
+    LinkType.download => "Download",
+    LinkType.social => "Follow",
+  };
+}
+
 Section _generateProject({
   required String title,
   required String codename,
   required String description,
   required String link,
+  LinkType linkType = .download,
 }) => Section(
   classes: ["project"],
   children: [
@@ -26,14 +39,14 @@ Section _generateProject({
       autoLink: false,
       children: [
         T(title),
-        Span(children: [T(codename)], classes: ["codename"]),
+        Span.text(codename, classes: ["codename"]),
       ],
     ),
-    P(children: [T(description.replaceAll("\n", "<br>"))]),
+    P.text(description.replaceAll("\n", "<br>")),
     P(
-      classes: ["download"],
+      classes: ["link"],
       children: [
-        A(href: link, children: [T("Download →")]),
+        A.text("$linkType →", href: link),
       ],
     ),
   ],

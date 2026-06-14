@@ -17,7 +17,7 @@ List<Element> generateProjectsSection() {
       description:
           "(In development) A game that synchronises with your workflow (through focus sessions).\n"
           "Follow us on Bluesky and Twitter for updates!",
-      link: "https://https://bsky.app/profile/megahard.games",
+      link: "https://bsky.app/profile/megahard.games",
       linkType: .social,
     ),
   ];

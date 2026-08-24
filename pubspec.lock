@@ -5,18 +5,10 @@ packages:
     dependency: transitive
     description:
       name: archive
-      sha256: a96e8b390886ee8abb49b7bd3ac8df6f451c621619f52a26e815fdcf568959ff
+      sha256: ace891da0862b0e4cabbb064ee3fd87b2728b898949fdb366d83fe98342c9f19
       url: "https://pub.dev"
     source: hosted
-    version: "4.0.9"
-  collection:
-    dependency: transitive
-    description:
-      name: collection
-      sha256: "2f5709ae4d3d59dd8f7cd309b4e023046b57d8a6c82130785d2b0e5868084e76"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.19.1"
+    version: "4.2.0"
   ffi:
     dependency: transitive
     description:
@@ -29,10 +21,10 @@ packages:
     dependency: transitive
     description:
       name: image
-      sha256: "6300175e00616bbc832e2fc91bfa4d776af5402c81c7151bee6905bb08473c52"
+      sha256: "1976370a4df3091bb0f72409c187ad1f9132a818bc6b95ca59c0bae1c75c688e"
       url: "https://pub.dev"
     source: hosted
-    version: "4.9.1"
+    version: "4.9.2"
   logging:
     dependency: "direct main"
     description:
@@ -45,10 +37,10 @@ packages:
     dependency: transitive
     description:
       name: meta
-      sha256: c82594181e3312f3d0695fc95aaaf7758d75b8d4ae2bbecf223b9fd5109a059d
+      sha256: "307249ce4ff29d58a18e97f6345f539382eb9c9c29ecda628900f31de0443dd9"
       url: "https://pub.dev"
     source: hosted
-    version: "1.18.3"
+    version: "1.19.0"
   path:
     dependency: "direct main"
     description:
@@ -57,28 +49,20 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
-  petitparser:
-    dependency: transitive
-    description:
-      name: petitparser
-      sha256: "91bd59303e9f769f108f8df05e371341b15d59e995e6806aefab827b58336675"
-      url: "https://pub.dev"
-    source: hosted
-    version: "7.0.2"
   posix:
     dependency: transitive
     description:
       name: posix
-      sha256: "185ef7606574f789b40f289c233efa52e96dead518aed988e040a10737febb07"
+      sha256: bc1bad54ad2b735816e31f8d4600cfde6c7839975085ddfbca48b6c9f7c4044e
       url: "https://pub.dev"
     source: hosted
-    version: "6.5.0"
+    version: "6.5.2"
   techs_html_bindings:
     dependency: "direct main"
     description:
       path: "."
       ref: main
-      resolved-ref: c36ba50fb072c5e9dccca4fffc674d6a5f9ef640
+      resolved-ref: "14fb91582a8609a78a1cc7294284e2f060ab7834"
       url: "https://github.com/TechnicJelle/techs_html_bindings.git"
     source: git
     version: "1.0.0"
@@ -86,17 +70,9 @@ packages:
     dependency: "direct dev"
     description:
       name: very_good_analysis
-      sha256: d1cb1d66a5aae2c702d68caca6c8347306d35e728fd94555fa21fa0448a972e0
+      sha256: "481af67ab5877af20325251dc215a4ebac7666a1c8cf09198ffd457bc612b33d"
       url: "https://pub.dev"
     source: hosted
-    version: "10.2.0"
-  xml:
-    dependency: transitive
-    description:
-      name: xml
-      sha256: "67f0aff7be013d107995e9b75bf4e7f2c3ef2dfdb2c8e68024bba0a7fd5756a4"
-      url: "https://pub.dev"
-    source: hosted
-    version: "7.0.1"
+    version: "10.3.0"
 sdks:
   dart: ">=3.12.1 <4.0.0"

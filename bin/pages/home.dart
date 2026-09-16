@@ -23,7 +23,7 @@ void createHomePage() {
               UnorderedList(
                 items: [
                   generateNavItem("Projects"),
-                  generateNavItem("About"),
+                  //generateNavItem("About"),
                   generateNavItem("Contact"),
                 ],
               ),
@@ -45,11 +45,10 @@ void createHomePage() {
           ),
           P(
             children: [
-              T("We're MEGAHARD, a game collective making games at gamejams that go hard (usually)."),
-            ],
+              T("We're MEGAHARD, a game collective making games in Enschede, the Netherlands."),            ],
           ),
           ...generateProjectsSection(),
-          ...generateAboutSection(),
+          //...generateAboutSection(),
           ...generateContactSection(),
         ],
       ),
